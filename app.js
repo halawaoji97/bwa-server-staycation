@@ -9,7 +9,8 @@ const session = require('express-session');
 const flash = require('connect-flash');
 // import mongoose
 const mongoose = require('mongoose');
-const URI = 'mongodb://localhost:27017/staycation_db';
+const URI =
+  'mongodb+srv://bwa_staycation:javascript123@cluster0.udzpy.mongodb.net/stayation_db?retryWrites=true&w=majority';
 
 const options = {
   autoIndex: false, // Don't build indexes
